@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8">
+        <title>Snake</title>
+        <link href="style.css" type="text/css" rel="stylesheet"></link>
+        <script src="script.js"></script>
+    </head>
+    <body>
+        <div id ="menu" >
+            <div id="selec">
+                <h1>SNAKE JS</h1>
+                <div id="button">
+                    <button id="1">1</button>
+                    <button id="2">2</button>
+                    <button id="3">3</button>
+                    <button id="4">4</button>
+                </div>
+            </div>
+            <p><strong>Instruction</strong><br>
+            Sur PC : dirigez vous avec les fleches directionnelles, boost avec Ctrl. <br>
+            Sur moblie : taper en haut de l'ecran pour aller en haut, en bas pour aller en bas, etc., boost en maintenant au centre. <br>
+            Buffer de direction : si vous effectuez plusieurs changements de direction rapidement, ceux-ci sont stockés et effectué dans l'ordre. <br>
+            Fruit jaune : 1pt, fruit orange : 2pts, fruit rouge : 3pts<br>
+            Dans certain niveau vous pourrez vous teleportez d'un mur a l'autre en touchant les bords. <br>
+            Dans certain niveau votre vitesse sera amener a varier, soit en accelerant, soit en etant aleatoire.</p>
+        </div>
+        <div id="jeu" class="hide">
+            <label id="score">Score : 0</label>
+            <canvas id="canvas" width="0" height="0"></canvas>
+        </div>
+    </body>
+</html>

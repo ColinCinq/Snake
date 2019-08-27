@@ -1,0 +1,14 @@
+{
+    "dimensions": [15, 50],
+    "delay": 150,
+    "acceleration" : "random",
+    "border": false,
+    "walls": [
+    ],
+    "fruit": {
+        "proba" : [0.5, 0.3],
+        "place" : [
+        [7,10, 2], [2,45,3]
+        ]
+    }
+}
